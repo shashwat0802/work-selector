@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./img/background.png') no-repeat center;
+  min-height: 100vh;
+}
+
+.card-bg {
+  background: linear-gradient(
+      180deg,
+      rgba(78, 134, 255, 0.95) 0%,
+      rgba(48, 74, 133, 0.95) 100%,
+      rgba(48, 74, 133, 0.95) 100%
+    ),
+    url('./img/card-bg.svg');
+  border-radius: 8px;
+  color: #fff;
+  max-height: 496px;
+}
+
+.inactive-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+}
+
+.indicator {
+  background: #ffed4a;
+  box-shadow: 0px 0px 16px rgba(255, 237, 74, 0.5);
+  border-radius: 0px 0px 4px 4px;
+  top: 0px;
+  right: 22px;
+}
+
+.indicator-bottom {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  bottom: 20px;
+  left: -40px;
+}
+
+.indicator-bottom-right {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  bottom: 20px;
+  right: -40px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.secondary-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 237, 74, 0.56) 0%,
+    rgba(255, 237, 74, 0) 100%
+  );
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 237, 74, 0) 100%,
+    rgba(255, 237, 74, 1) 100%
+  );
+  border-radius: 4px;
+  border-width: 2px;
+}
